@@ -7,8 +7,8 @@ function takeANumber(line, person)
 let counterTakeANumber = 0;
 function takeANumber2()
 {
-    counter++;
-    return `Welcome, your order number is ${counter}`;
+    counterTakeANumber++;
+    return `Welcome, your order number is ${counterTakeANumber}`;
 }
 
 function nowServing(line)
