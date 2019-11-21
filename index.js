@@ -4,6 +4,13 @@ function takeANumber(line, person)
   return `Welcome, ${person}. You are number ${line.length} in line.`
 }
 
+let counterTakeANumber = 0;
+function takeANumber2()
+{
+    counter++;
+    return `Welcome, your order number is ${counter}`;
+}
+
 function nowServing(line)
 {
   let returnString = "";
